@@ -12,7 +12,8 @@ The dataset for this project will consist of daily records containing the follow
 
 ## Data Sources
 - **Calorie Data:** Daily calorie output data will be collected from my fitness tracker (Apple Health).
-- **Instagram Story Data:** I will manually log the days I post stories on Instagram or use Instagram’s data export feature to track story posting dates.
+- **Instagram Story Data:** I will use Instagram’s API to track story posting dates, which will improve data accuracy and automate data collection.
+- **Weather Data:** I will use an API (such as OpenWeather) to gather the weather conditions on the days I post stories, to see if environmental factors influence activity levels.
 
 ## Data Enrichment
 To enrich this dataset, I plan to include:
@@ -40,4 +41,4 @@ To enrich this dataset, I plan to include:
 - **Future Work:** Future research could expand this analysis to include data from other individuals or integrate additional variables (such as more granular environmental factors) for a comprehensive view beyond simple correlation analysis.
 
 ## Conclusion
-This project provides an initial exploration into how social media activity, specifically Instagram story posting, correlates with daily physical activity as measured by calorie output. While the current focus is on these two variables enriched by weather data, further research will aim to incorporate additional contextual factors to better understand the underlying relationships. This ongoing work will help refine the analysis and potentially uncover more complex patterns in the interaction between online behavior and physical activity.
+This project provides an initial exploration into how social media activity, specifically Instagram story posting, correlates with daily physical activity as measured by calorie output. This ongoing work will help refine the analysis and potentially uncover more complex patterns in the interaction between online behavior and physical activity.
