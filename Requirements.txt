@@ -1,0 +1,9 @@
+Pandas – For reading, cleaning, and analyzing data
+
+Matplotlib – For creating graphs and visualizations
+
+Seaborn – For making prettier and easier statistical plots
+
+Openpyxl – For working with Excel files
+
+Scipy – For running advanced math and statistical tests
