@@ -53,8 +53,8 @@ To assess the relationship between calorie output and story posting, I conducted
 - **H₁ (Alternative):** There is a correlation between the two.
 
 ### Results:
-- **Correlation Coefficient (r):** 0.0583  
-- **p-value:** 0.6734  
+- **Correlation Coefficient (r):** -0.02047  
+- **p-value:** 0.1200  
 
 ➡️ The result is **not statistically significant** (p > 0.05), so we fail to reject the null hypothesis. This indicates that there is **no evidence of a linear relationship** between calorie output and story activity.
 
