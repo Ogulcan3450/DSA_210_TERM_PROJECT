@@ -1,0 +1,18 @@
+Academic Integrity and AI Assistance Disclosure
+
+I confirm that all work submitted for this project is my own. I have used AI assistance responsibly and transparently following academic integrity guidelines.
+
+Use of AI Tools
+
+I used ChatGPT to assist with:
+- Code development for data cleaning, visualization
+- Interpreting statistical results and structuring hypothesis testing sections
+- Formatting and refining written components of the report
+
+Prompts Used
+
+Can you generate a visualization showing daily calorie output and Instagram story activity as a timeline?
+Can you clean this dataset and run a point-biserial correlation test in Python?
+Please format my README file to match project expectations
+How can I prevent overlapping plot titles in Matplotlib?
+
