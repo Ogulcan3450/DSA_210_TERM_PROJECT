@@ -15,4 +15,6 @@ Can you generate a visualization showing daily calorie output and Instagram stor
 Can you clean this dataset and run a point-biserial correlation test in Python?
 Please format my README file to match project expectations
 How can I prevent overlapping plot titles in Matplotlib?
+What is an effective way to apply machine learning algorithm to my data?
+How can i visualise the machine learning part?
 
