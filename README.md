@@ -1,7 +1,7 @@
 # Project: Exploring the Relationship Between Daily Calorie Output and Instagram Story Activity
 
 ## 📌 Motivation
-In this project, I aim to explore whether there is a correlation between my daily calorie output and the days I post stories on Instagram. This analysis will provide insights into how social media activity might influence physical activity and daily energy expenditure.
+In this project, I aim to explore whether there is a correlation between my daily calorie output and the days I post stories on Instagram. This analysis provides insights into how social media activity might influence physical activity and daily energy expenditure.
 
 ---
 
@@ -22,8 +22,11 @@ The dataset consists of daily records from February to March 2025, including:
 ---
 
 ## ✨ Data Enrichment
-In future phases, the dataset may be enriched with:
-- Temperature, humidity, and weather conditions per day.
+- Added temporal features such as:
+  - **Day of the Week** (0 = Monday, … 6 = Sunday)
+  - **Weekend Indicator** (1 = weekend, 0 = weekday)
+
+These features enrich the dataset to better capture behavioral patterns related to posting stories.
 
 ---
 
@@ -56,14 +59,40 @@ To assess the relationship between calorie output and story posting, I conducted
 - **Correlation Coefficient (r):** -0.2047  
 - **p-value:** 0.1200  
 
-➡️ The result is **not statistically significant** (p > 0.05), so we fail to reject the null hypothesis. This indicates that there is **no evidence of a linear relationship** between calorie output and story activity.
+➡️ The result is **not statistically significant** (p > 0.05), so we fail to reject the null hypothesis. This indicates **no evidence of a linear relationship** between calorie output and story activity.
 
 ---
 
-## ✅ Progress Update (as of April 18)
+## 🤖 Machine Learning Analysis
+
+To further explore predictive relationships, I applied supervised classification algorithms to predict Instagram story posting based on calorie output and temporal features.
+
+### Features Used:
+- **Calorie Output**
+- **Day of the Week**
+- **Weekend Indicator**
+
+### Models and Results:
+
+#### Decision Tree Classifier
+- Accuracy and performance metrics including cross-validation accuracy.
+- Confusion matrix and classification report provide insights into model performance.
+- Visualization of the decision tree shows how features influence predictions.
+
+#### Random Forest Classifier
+- Typically higher accuracy than the decision tree due to ensemble learning.
+- Cross-validation scores demonstrate model robustness.
+- Confusion matrix and classification report highlight precision, recall, and F1-score.
+
+Both models show moderate predictive capability, suggesting some relationship between the features and Instagram story posting behavior, though predictions are not highly accurate.
+
+---
+
+## ✅ Progress Update (as of June 1)
 - ✅ Data collected (59 days from February to March 2025)
 - ✅ EDA completed with visualizations and descriptive statistics
 - ✅ Hypothesis testing conducted and documented
+- ✅ Machine learning classifiers (Decision Tree, Random Forest) implemented and evaluated
 
 ---
 
@@ -72,22 +101,30 @@ To assess the relationship between calorie output and story posting, I conducted
 |--------------------------------------------|--------------|---------------|
 | Submit Proposal                            | March 10     | ✅ Completed   |
 | Data Collection, EDA, & Hypothesis Testing | April 18     | ✅ Completed   |
-| Apply Machine Learning & Final Analysis    | May 23       | 🔜 Upcoming    |
-| Final Submission                           | May 30       | 🔜 Upcoming    |
+| Apply Machine Learning & Final Analysis    | May 23       | ✅ Completed   |
+| Final Submission                           | May 30       | ✅ Completed   |
 
 ---
 
 ## 🔮 Future Work
-- Apply machine learning (e.g., logistic regression) to predict story posting.
-- Integrate weather/environmental factors to investigate deeper behavioral influences.
+- Enhance machine learning models with additional features, such as weather and social factors.
+- Explore other classification algorithms and parameter tuning for improved prediction.
+- Automate Instagram story logging to improve data reliability.
+- Investigate time series models to capture temporal dependencies.
 
 ---
 
 ## 📌 Limitations
-- Dataset is personal, so findings may not be generalizable.
-- Instagram story logging was done manually (automation planned for future versions).
+- Dataset is personal; findings may not generalize to broader populations.
+- Instagram story logging was manual and may contain inaccuracies.
+- Current models are trained on limited features and a relatively small sample size.
 
 ---
 
 ## 🏁 Conclusion
-This project provides an initial exploration of how Instagram activity may or may not relate to physical activity. Although no significant correlation was found, the current framework sets a foundation for further exploration — especially with enriched features or broader data collection.
+After thorough exploratory data analysis, hypothesis testing, and machine learning classification, the project finds **no statistically significant linear correlation** between daily calorie output and Instagram story activity. However, machine learning models suggest that calorie output combined with temporal features (day of the week, weekend indicator) has **some moderate predictive power** for Instagram story posting behavior, though accuracy is limited.
+
+Overall, this indicates that Instagram story activity is not strongly determined by daily calorie expenditure alone. The relationship is likely influenced by additional factors not captured in the current dataset. This project provides a foundational framework and highlights the need for richer data and more complex models to better understand the behavioral interplay between physical activity and social media use.
+
+---
+
