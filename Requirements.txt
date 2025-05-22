@@ -1,9 +1,7 @@
-Pandas – For reading, cleaning, and analyzing data
-
-Matplotlib – For creating graphs and visualizations
-
-Seaborn – For making prettier and easier statistical plots
-
-Openpyxl – For working with Excel files
-
-Scipy – For running advanced math and statistical tests
+Pandas           # For reading, cleaning, and analyzing data
+Matplotlib       # For creating graphs and visualizations
+Seaborn          # For making prettier and easier statistical plots
+Openpyxl         # For working with Excel files
+Scipy            # For running advanced math and statistical tests
+Numpy            # Used for numerical operations and array handling
+Scikit-learn     # For machine learning models and evaluation metrics
